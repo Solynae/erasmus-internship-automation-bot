@@ -12,15 +12,13 @@ from dotenv import load_dotenv
 # .env dosyasını yükle
 load_dotenv()
 
-# ================= AYARLAR =================
+# ================= AYARLAR (GÜVENLİ) =================
 DOSYA_ADI = "liste.xlsx"
-CV_DOSYASI = "nazlican-ezeroglu-cv.pdf"
-GONDEREN_MAIL = "nazlicanezeroglu@gmail.com"
+CV_DOSYASI = "nazlican-ezeroglu-cv.pdf" # Bu dosya ismi genel kalabilir
+GONDEREN_MAIL = os.getenv("MY_EMAIL") # .env'den çeker
 UYGULAMA_SIFRESI = os.getenv("GMAIL_APP_PASSWORD") 
-
-# Linkler
-LINKEDIN_URL = "https://www.linkedin.com/in/nazlican-ezeroglu"
-GITHUB_URL = "https://github.com/Solynae"
+LINKEDIN_URL = os.getenv("MY_LINKEDIN")
+GITHUB_URL = os.getenv("MY_GITHUB")
 # ===========================================
 
 def mail_gonder():
