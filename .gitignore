@@ -206,7 +206,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# --- Nazlıcan'ın Özel Dosyaları ---
+# Özel Dosyalar ---
 
 # Gizli bilgiler ve Gönderilen Mailler
 .env
@@ -218,7 +218,7 @@ dogrulanmis_liste.xlsx
 *.docx
 *.pdf
 
-# Deneme Scriptleri (Sadece ana kod gitsin demiştin)
+# Deneme Scriptleri 
 mail_dogrulama.py
 mail_olusturucu.py
 test_mail.py
