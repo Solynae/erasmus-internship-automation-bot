@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Nazlıcan'ın Özel Dosyaları ---
+
+# Gizli bilgiler ve Gönderilen Mailler
+.env
+hazir_mailler.txt
+liste.xlsx
+dogrulanmis_liste.xlsx
+
+# Kişisel Belgeler ve Raporlar
+*.docx
+*.pdf
+
+# Deneme Scriptleri (Sadece ana kod gitsin demiştin)
+mail_dogrulama.py
+mail_olusturucu.py
+test_mail.py
+Yeni klasör/
