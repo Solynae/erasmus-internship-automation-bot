@@ -52,8 +52,10 @@ Sayfanın en altına inip Uygulama Şifreleri'ne tıklayın.
 Oluşturulan 16 haneli kodu kopyalayıp .env dosyanızdaki GMAIL_APP_PASSWORD kısmına yapıştırın.
 
 **📊 Excel Dosyası Yapısı (liste.xlsx) Botun düzgün çalışması için ana dizinde liste.xlsx adında bir Excel dosyası bulunmalıdır. Başlıklar tam olarak şu şekilde olmalıdır:**
-E-posta Adresi      Üniversite/Birim    Ozel_Cumle
-info@company.com    Tech University     I am impressed by your research on AI.hr@startup.deFuture AI LabYour project on cloud computing is inspiring.
+| E-posta Adresi | Üniversite / Birim | Ozel_Cumle |
+| :--- | :--- | :--- |
+| info@company.com | Tech University | I am impressed by your research on AI. |
+| hr@startup.de | Future AI Lab | Your project on cloud computing is inspiring. |
 
 **Not: Ozel_Cumle sütunu boşsa, bot otomatik olarak şirket ismini içeren genel bir profesyonel cümle oluşturur.**
 
